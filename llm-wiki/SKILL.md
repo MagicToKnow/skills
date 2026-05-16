@@ -63,7 +63,7 @@ wiki/
 
 ## Language
 
-All generated content — entity pages, ref summaries, index entries, synthesis pages, lint reports, and any user-facing output — must use **Chinese (Simplified)** as the primary language, except:
+All generated content — including entity pages, ref summaries, index entries, synthesis pages, lint reports, file names (page slugs, ref IDs, raw filenames), and any user-facing output — must use **Chinese (Simplified)** as the primary language, except:
 
 - **Code blocks**, command output, and technical identifiers (variables, library names, CLI flags) stay in their original form.
 - The `schema.md` configuration itself stays in English.
