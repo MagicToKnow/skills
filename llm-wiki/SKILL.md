@@ -61,6 +61,14 @@ wiki/
                   preserved artifact, not necessarily the ref id
 ```
 
+## Language
+
+All generated content — entity pages, ref summaries, index entries, synthesis pages, lint reports, and any user-facing output — must use **Chinese (Simplified)** as the primary language, except:
+
+- **File names** (page slugs, ref IDs, raw filenames) must remain in **English**, lowercase kebab-case.
+- **Code blocks**, command output, and technical identifiers (variables, library names, CLI flags) stay in their original form.
+- The `schema.md` configuration itself stays in English.
+
 ## Location
 
 Default: `<obsidian-vault>/Wiki/` — resolve the vault with `obsidian eval code="app.vault.adapter.basePath"` (strip `=> ` prefix). Override with `--path <dir>`. Fall back to `./wiki/` only if no vault is available.
